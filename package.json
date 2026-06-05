@@ -12,6 +12,11 @@
         "tauri:build": "tauri build",
         "tauri:debug": "tauri build --debug"
     },
+    "pnpm": {
+    "onlyBuiltDependencies": [
+        "sharp"
+      ]
+    },
     "devDependencies": {
         "@tauri-apps/cli": "^2",
         "@types/node": "^22.5.4",
